@@ -184,7 +184,7 @@ We will create two new users: ‘karen karen’ with the email ‘karen@osticket
 
 <h2>Allow Anyone to Create Tickets</h2>
 <p>
-Access the Admin Panel, go to the Settings tab, and click on Users, make sure Registration Required is unchecked. This will allow the user to create tickets without logging in.
+In the Admin Panel, navigate to the Settings tab and click on Users. Ensure that the Registration Required option is unchecked. This will enable users to create tickets without needing to log in.
 </p>
 <p>
 <img src="https://imgur.com/oJnMe9z.png" height="70%" width="70%" alt="osTicket"/>
@@ -192,13 +192,13 @@ Access the Admin Panel, go to the Settings tab, and click on Users, make sure Re
 
 <h2>Configure SLA Plans</h2>
 <p>
-The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed. To create new SLA plans, navigate to the Admin Panel then go to Manage -> SLA, and click on 'Add New SLA Plan'.
+The SLA Plan serves to specify the expected timeframe within which the help desk Administrator aims to resolve tickets. To create new SLA plans, go to the Admin Panel, then navigate to Manage -> SLA, and click on Add New SLA Plan.
 </p>
 <p>
 <img src="https://imgur.com/4vdq2E4.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-We will create three separate SLA plans with different specifications for low-, medium-, and high-severity tickets. Create each SLA Plan with the following specifications:
+We will establish three distinct SLA plans, each with different specifications for low-, medium-, and high-severity tickets. Create each SLA Plan according to the following details:
 
 1.) SEV-A with 1 hour Grace Period, 24/7 schedule
 
@@ -216,33 +216,31 @@ Below is an example of the creation of SLA Plan 'SEV-A'.
 
 <h2>Configure Help Topics</h2>
 <p>
-Help Topics will determine what Department the ticket is routed to which will determine which Agents have access to the ticket. The Help Topic also can determine other configurations of the ticket, such as the ticket’s SLA (or Service Level Agreement) and priority of a ticket, i.e. Emergency to Low.
+Help Topics are used to designate the Department to which a ticket is routed, thereby determining which Agents can access it. Additionally, Help Topics can influence other ticket configurations, including the ticket’s SLA (Service Level Agreement) and its priority level, ranging from Emergency to Low.
 
-osTicket creates four Help Topics. Feedback, General Inquiry, Report a Problem, and Report a Problem/Access Issue by default.
+By default, osTicket includes four Help Topics: Feedback, General Inquiry, Report a Problem, and Report a Problem/Access Issue.
 
-To configure new Help Topics navigate to the Admin Panel then to Manage -> Help Topics and select 'Add New Help Topic'.
+To set up new Help Topics, go to the Admin Panel, then navigate to Manage -> Help Topics and click on Add New Help Topic.
 </p>
 <p>
 <img src="https://imgur.com/gjgq1od.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Create four different Help Topics based on the potential severity a ticket could have. Here are some examples:
+Establish four distinct Help Topics that reflect the potential severity of a ticket. Here are some examples:
   
 - Business Critical Outage
 - Personal Computer Issues
 - Equipment Reset
 - Password Reset
 
-Click on 'Add Topic', to create a new Help Topic.
+Select Add Topic to initiate the creation of a new Help Topic.
 </p>
 <p>
 <img src="https://imgur.com/aqD2s17.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 
 <p>
-Congratulations! You have completed the osTicket Post Installation Configuration! 
-
-To learn about osTicekt's Ticket Lifecycles continue to the [osTicket - Ticket Lifecycle: Intake Through Resolution Lab](https://github.com/andrewkhun/ticket-lifecycle)
+Congratulations! You have successfully finished the osTicket Post Installation Configuration.
 
 </p>
  
