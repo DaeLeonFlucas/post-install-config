@@ -93,8 +93,8 @@ To set up Departments, go to the Admin Panel, choose Agents -> Departments, and 
 
 <h2>Configure Teams</h2>
 <p>
-Teams allow you to pull Agents from different Departments and organize them to handle a specific issue or user via a Help Topic or Ticket Filter.
-To configure Teams, head back to the Admin panel then go to Agents -> Teams, and click on 'Add New Team'. Create a new team called 'Level II Support', and add your current user account to the Team.
+With Teams, you can assemble Agents from different Departments to collaboratively manage a specific issue or user request through a Help Topic or Ticket Filter.
+To set up Teams, return to the Admin Panel, navigate to Agents -> Teams, and select Add New Team. Name the new team ‘Level II Support’ and include your current user account in the Team.
 </p>
 <p>
 <img src="https://imgur.com/bWC5aor.png" height="70%" width="70%" alt="osTicket"/>
@@ -103,7 +103,7 @@ To configure Teams, head back to the Admin panel then go to Agents -> Teams, and
 <img src="https://imgur.com/xGbRUFS.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Once done, click on 'Create Team'.
+When finished, click on 'Create Team'.
 </p>
 
 
@@ -112,18 +112,18 @@ Once done, click on 'Create Team'.
 
 <h2>Configure Agents</h2>
 <p>
-Agents are given the access to the help desk in osTicket to respond, resolve, and update the status of tickets. To configure Agents or the ones who will be resolving the tickets, go to the Admin panel go to Agents -> Add New, and click on 'Add New Agent'.
+Agents are authorized to access the help desk in osTicket for responding to, resolving, and updating ticket statuses. To set up the Agents responsible for ticket resolution, head to the Admin Panel, select Agents -> Add New, and then click Add New Agent.
 </p>
 <p>
 <img src="https://imgur.com/cKtoFdN.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Here we will create two new agents. The first Agent will be named 'jane doe' with the email 'jane.doe<span>@</span>osticket.com' and username 'jane.doe'. 
+In this step, we will set up two new agents. The first agent will be ‘jane doe’, using the email ‘jane.doe@osticket.com’ and the username ‘jane.doe’. 
 <p>
 <img src="https://imgur.com/e7okRmE.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Once you have set the proper information click on 'Set Password'. Uncheck the boxes 'Send the agent a password reset email' and 'Require password change at next login'. This will allow us to set the password to 'Password1' and enable us to use the password for our next login instead of requiring us to change it at the next login. 
+After entering the necessary information, click on Set Password. Make sure to uncheck the options ‘Send the agent a password reset email’ and ‘Require password change at next login’. This will enable you to set the password to ‘Password1’ and use it for the next login without needing to change it. 
 </p>
 <p>
 <img src="https://imgur.com/WvkjIeB.png" height="70%" width="70%" alt="osTicket"/>
