@@ -39,7 +39,7 @@ In the photo below, you can see we are on the Agent Panel since the UI is displa
 
 <h2>Configure Roles</h2>
 <p>
-To setup the proper osTicket configurations, you must log in with the 'user_admin' account that was created in the [osTicket - Prerequisites and Installation Lab](https://github.com/andrewkhun/osticket-prereqs)
+To setup the proper osTicket configurations, you must log in with the 'user_admin' account that was created in the [osTicket - Prerequisites and Installation Lab](https://github.com/DaeLeonFlucas/osticket-prereqs)
 </p>
 <p>
 Login using the account created.
