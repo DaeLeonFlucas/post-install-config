@@ -129,23 +129,22 @@ After entering the necessary information, click on Set Password. Make sure to un
 <img src="https://imgur.com/WvkjIeB.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Click on the 'Access' tab and select the 'System Administrators' department with the role of 'Supreme Admin'. For 'Extended Access', add the 'Support' department and 'Supreme Admin' role as well. In the 'Teams' tab, select the 'Level II Support' team and click 'Add'.
+Navigate to the Access tab and select the System Administrators department, assigning the role of Supreme Admin. For Extended Access, include the Support department and set the role to Supreme Admin as well. In the Teams tab, choose the Level II Support team and press Add.
 </p>
 <p>
 <img src="https://imgur.com/aLLJRoN.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Finally, click on 'Save Changes' to create a new Agent. 
+Lastly, click on Save Changes to create the new Agent.
 </p>
 <p>
 <img src="https://imgur.com/XkHoEHJ.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-We will create a second Agent with the name 'john smith'. The creation process is similar to the previous Agent creation process with just a few changes. Ensure the user's name, email, username, and password are properly set. 
+Next, we will create a second Agent called ‘john smith’. This process is similar to creating the first Agent, with a few adjustments. Ensure that the name, email, username, and password are accurately entered.
+Within the Access tab, configure the Primary Department as Support and select the Supreme Admin role.
 
-In the 'Access' tab, set the 'Primary Department' to 'Support' and the role to 'Supreme Admin'.
-
-Next, in 'Teams' add the 'Level I Support' team, then click Save changes.
+Then, in the Teams tab, include the Level I Support team and click Save Changes to finalize.
 </p>
 <p>
 <img src="https://imgur.com/ahYOo13.png" height="70%" width="70%" alt="osTicket"/>
@@ -157,7 +156,7 @@ Next, in 'Teams' add the 'Level I Support' team, then click Save changes.
 <img src="https://imgur.com/sRUx8p6.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Please note, when configuring a true work/production environment osTicket instance, ensure that you apply the concept of 'Least Privilege' to only provide the least amount of access a user needs to complete their duties. However, for the sake of this lab, we will allow john smith to have a 'Supreme Admin' role.
+It’s important to remember that in a real work or production environment of osTicket, you should apply the principle of ‘Least Privilege’ to grant users only the minimum access necessary for their responsibilities. However, for this lab, we will assign john smith a ‘Supreme Admin’ role.
 </p>
 
 
@@ -165,13 +164,13 @@ Please note, when configuring a true work/production environment osTicket instan
 
 <h2>Configure Users</h2>
 <p>
-Users are creators and owners of tickets and by using osTicket they can track the status of their tickets. To configure Users who will submit tickets into the osTicket system, navigate to the Agent panel then click on Users -> Add New. Here we will create two new Users.
+In osTicket, Users are responsible for creating and owning tickets, allowing them to monitor their ticket status. To configure Users who will submit tickets into the osTicket system, navigate to the Agent panel and select Users -> Add New. We will add two new Users in this step.
 </p>
 <p>
 <img src="https://imgur.com/d75tPfh.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Our two new users will be 'karen karen' with the email 'karen<span>@</span>osticket.com' and 'ken ken' with the email 'ken<span>@</span>osticket.com'. Once you have entered the proper information for each user, click on 'Add User'.
+We will create two new users: ‘karen karen’ with the email ‘karen@osticket.com’, and ‘ken ken’ with the email ‘ken@osticket.com’. Once you have filled in the necessary details for each user, click Add User.
 </p>
 <p>
 <img src="https://imgur.com/OV9Lf0p.png" height="70%" width="70%" alt="osTicket"/>
