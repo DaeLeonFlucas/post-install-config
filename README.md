@@ -28,9 +28,9 @@ This is a continuation of the [osTicket - Prerequisites and Installation Lab](ht
 
 <h2>osTicket UI</h2>
 <p>
-When navigating the osTicket User Interface (UI), note there are two panels: the Agent Panel and Admin Panel. You will know which panel you are on if the opposite panel is displayed on the top right of the UI. You will switch back and forth between the two panels during the post-configuration installation lab. 
+In the osTicket User Interface (UI), there are two primary sections: the Agent Panel and the Admin Panel. The top-right corner will indicate the opposite panel, letting you know your current view. You’ll frequently switch between these panels as part of the post-configuration lab. 
   
-In the photo below, you can see we are on the Agent Panel since the UI is displaying the Admin Panel as an option in the top right:
+In the image below, you’ll notice we are on the Agent Panel, as the Admin Panel option is visible in the top right of the UI.
 </p>
 <p>
 <img src="https://imgur.com/bV72KPM.png" height="70%" width="70%" alt="osTicket"/>
@@ -39,7 +39,7 @@ In the photo below, you can see we are on the Agent Panel since the UI is displa
 
 <h2>Configure Roles</h2>
 <p>
-To setup the proper osTicket configurations, you must log in with the 'user_admin' account that was created in the [osTicket - Prerequisites and Installation Lab](https://github.com/DaeLeonFlucas/osticket-prereqs)
+To configure osTicket correctly, log in with the ‘user_admin’ account created during the osTicket - Prerequisites and Installation Lab.
 </p>
 <p>
 Login using the account created.
