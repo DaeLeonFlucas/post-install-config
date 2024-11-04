@@ -48,13 +48,13 @@ Login using the account created.
 <img src="https://imgur.com/0YfQFj8.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Roles are the permissions granted to Agents per Department that they have access to. Navigate to the Admin Panel, select Agents -> Roles, and click 'Add New Role'.
+Roles determine the permissions granted to Agents within each Department they can access. In the Admin Panel, navigate to Agents -> Roles, then click on Add New Role to proceed.
 </p>
 <p>
 <img src="https://imgur.com/YekL3QB.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-We will create a new Role named 'Supreme Admin'. Once you have entered the name, select the 'Permissions' tab and ensure that all the permissions under the 'Tickets', 'Tasks', and 'Knowledgebase' tabs are checked to allow all permissions for this Role. Once all boxes have been checked, click 'Add Role'.
+We’ll set up a new Role titled ‘Supreme Admin’. Enter the name, then navigate to the Permissions tab and check all permissions under the Tickets, Tasks, and Knowledgebase tabs to provide full access for this Role. After confirming all boxes are selected, click Add Role.
 </p>
 <p>
 <img src="https://imgur.com/GBZ8gQy.png" height="70%" width="70%" alt="osTicket"/>
@@ -69,21 +69,20 @@ We will create a new Role named 'Supreme Admin'. Once you have entered the name,
 <img src="https://imgur.com/MpxDdQI.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-Once all boxes have been checked, click 'Add Role'.
+Once every box is checked, press Add Role to complete the process.
 </p>
-
 
 
 <h2>Configure Deparments</h2>
 <p>
-Departments are used to route and resolve tickets based on their importance or instructions.
-To configure Departments, head to the Admin Panel then select Agents -> Departments, and click on 'Add New Department'.
+Departments help organize and manage tickets by routing them according to priority or specific guidelines.
+o set up Departments, go to the Admin Panel, choose Agents -> Departments, and click Add New Department.
 </p>
 <p>
 <img src="https://imgur.com/FIknaQW.png" height="70%" width="70%" alt="osTicket"/>
 </p>
 <p>
-We will create a new department named 'System Administrators'. Once you have typed the name, click 'Create Dept'.
+To set up Departments, go to the Admin Panel, choose Agents -> Departments, and click create New Department.
 </p>
 <p>
 <img src="https://imgur.com/ftyyfpP.png" height="70%" width="70%" alt="osTicket"/>
